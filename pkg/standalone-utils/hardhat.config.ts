@@ -55,6 +55,11 @@ export default {
       url: process.env.SEPOLIA_RPC_URL || '',
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
     },
+    moksha: {
+      url: process.env.MOKSHA_RPC_URL || '',
+      chainId: 14800,
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+    },
   },
   solidity: {
     compilers: hardhatBaseConfig.compilers,
