@@ -1,12 +1,8 @@
-# <img src="logo.svg" alt="Balancer" height="128px">
+# <img src="logo.png" alt="Symmetric" height="128px">
 
-# Balancer V3 Monorepo
+# Symmetric V4 Monorepo
 
-[![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-blue)](https://docs.balancer.fi/)
-[![CI Status](https://github.com/balancer/balancer-v3-monorepo/workflows/CI/badge.svg)](https://github.com/balancer/balancer-v3-monorepo/actions)
-[![License](https://img.shields.io/badge/License-GPLv3-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
-This repository contains the Balancer Protocol V3 core smart contracts, including the `Vault` and standard Pools, along with their tests.
+This repository contains the Symmetric Protocol V4 core smart contracts, including the `Vault` and standard Pools, along with their tests.
 
 ## Structure
 
@@ -16,13 +12,13 @@ Active development occurs in this repository, which means some contracts in it m
 
 ### Packages
 
-- [`v3-interfaces`](./pkg/interfaces): Solidity interfaces for all contracts.
-- [`v3-solidity-utils`](./pkg/solidity-utils): miscellaneous Solidity helpers and utilities used in many different contracts.
-- [`v3-pool-hooks`](./pkg/pool-hooks/): hook examples to illustrate potential capabilities and how to build one.
-- [`v3-pool-utils`](./pkg/pool-utils/): Solidity utilities used to develop Pool contracts.
-- [`v3-pool-stable`](./pkg/pool-stable/): contains [`StablePool`](./pkg/pool-stable/contracts/StablePool.sol), along with its associated factory.
-- [`v3-pool-weighted`](./pkg/pool-weighted): contains [`WeightedPool`](./pkg/pool-weighted/contracts/WeightedPool.sol), along with its associated factory.
-- [`v3-vault`](./pkg/vault): contains the main [`Vault`](./pkg/vault/contracts/Vault.sol) contract, which is the cornerstone of Balancer V3, and its extensions. Also includes the standard [`Router`](./pkg/vault/contracts/Router.sol) and [`BatchRouter`](./pkg/vault/contracts/BatchRouter.sol), which supports end-user interactions with the Vault.
+- [`v4-interfaces`](./pkg/interfaces): Solidity interfaces for all contracts.
+- [`v4-solidity-utils`](./pkg/solidity-utils): miscellaneous Solidity helpers and utilities used in many different contracts.
+- [`v4-pool-hooks`](./pkg/pool-hooks/): hook examples to illustrate potential capabilities and how to build one.
+- [`v4-pool-utils`](./pkg/pool-utils/): Solidity utilities used to develop Pool contracts.
+- [`v4-pool-stable`](./pkg/pool-stable/): contains [`StablePool`](./pkg/pool-stable/contracts/StablePool.sol), along with its associated factory.
+- [`v4-pool-weighted`](./pkg/pool-weighted): contains [`WeightedPool`](./pkg/pool-weighted/contracts/WeightedPool.sol), along with its associated factory.
+- [`v4-vault`](./pkg/vault): contains the main [`Vault`](./pkg/vault/contracts/Vault.sol) contract, which is the cornerstone of Symmetric V4, and its extensions. Also includes the standard [`Router`](./pkg/vault/contracts/Router.sol) and [`BatchRouter`](./pkg/vault/contracts/BatchRouter.sol), which supports end-user interactions with the Vault.
 
 ## Pre-requisites
 
